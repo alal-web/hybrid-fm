@@ -1,0 +1,14 @@
+[Desktop Entry]
+Icon=preferences-desktop-text-to-speech
+X-KDE-Library=libkhtmlttsplugin
+X-KDE-PluginInfo-Name=khtmlttsplugin
+X-KDE-PluginInfo-Version=4.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ParentApp=hybrid-fm
+Name=Text-to-Speech
+Name[ru]=Синтез речи
+Comment=Produces audio output for text in the current page
+Comment[ru]=Проговаривает текст текущей страницы
+

@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Service
+Comment=Embeddable HTML component
+Comment[ru]=Встраиваемый компонент HTML
+Icon=webengine
+MimeType=text/html;application/xml;application/xhtml+xml;
+Name=WebEngine
+Name[ru]=WebEngine
+X-KDE-Default-UserAgent=Mozilla/5.0 (%PLATFORM%; %SECURITY%; %OSNAME% %OSVERSION% %SYSTYPE%; %LANGUAGE%) AppleWebKit/534.34 (KHTML, like Gecko) %APPVERSION% Safari/534.34
+X-KDE-ServiceTypes=KParts/ReadOnlyPart,Browser/View
+X-KDE-Library=kf5/parts/webenginepart
+InitialPreference=12
+
+X-KDE-PluginInfo-Name=webenginepart
+X-KDE-PluginInfo-Version=1.3.0
+X-KDE-PluginInfo-Website=

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Icon=system-search
+Type=Service
+X-KDE-Library=searchbar
+X-KDE-PluginInfo-Name=searchbar
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Extensions
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=Search Bar
+Name[ru]=Панель поиска
+Comment=Provides a text box for easier access to search engines like Google.
+Comment[ru]=Поле ввода для отправки запросов к поисковым машинам типа Google.
+X-KDE-ParentApp=hybrid-fm

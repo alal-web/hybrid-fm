@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-KDE-Library=babelfish
+X-KDE-PluginInfo-Name=babelfish
+X-KDE-PluginInfo-Version=3.3
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=Translate
+Name[ru]=Перевести
+Comment=Language translation for the current page using Google
+Comment[ru]=Перевод текущей страницы с помощью Google
+Icon=babelfish
+X-KDE-ParentApp=hybrid-fm
+DocPath=konq-plugins/babel/index.html

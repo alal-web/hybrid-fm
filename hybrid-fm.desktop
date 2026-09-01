@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=hybrid-fm %U
+Icon=folder
+Name=HybridFM
+GenericName=File Manager
+Comment=Hybrid file manager and web browser
+Categories=Application;Utility;

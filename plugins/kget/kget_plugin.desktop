@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Icon=kget
+TryExec=kget
+X-KDE-Library=hybridfm_kget_browser_integration
+X-KDE-PluginInfo-Name=hybridfm_kget_browser_integration
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=Download Manager
+Name[ru]=Диспетчер загрузки
+Comment=A versatile and easy to use file download manager
+Comment[ru]=Гибкий и простой в использовании диспетчер загрузки
+X-KDE-ParentApp=hybrid-fm

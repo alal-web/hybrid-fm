@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Link
+URL=https://www.kde-apps.org/
+Name=KDE Applications
+Name[ru]=Приложения KDE
+Icon=text-html
+Open=false
+X-KDE-TreeModule=Directory
+X-KDE-KonqSidebarModule=konqsidebar_tree

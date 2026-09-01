@@ -1,0 +1,102 @@
+[Desktop Entry]
+TryExec=jpegorient
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin,image/jpeg
+Actions=jpegRot90;jpegRot270;jpegFlipV;jpegFlipH;
+X-KDE-Submenu=Transform Image
+X-KDE-Submenu[ar]=انقل الصورة إلىر
+X-KDE-Submenu[be]=Змяніць відарыс
+X-KDE-Submenu[bg]=Преобразуване на изображение
+X-KDE-Submenu[bs]=Preoblikuj sliku
+X-KDE-Submenu[ca]=Transforma imatge
+X-KDE-Submenu[ca@valencia]=Transforma imatge
+X-KDE-Submenu[cs]=Transformovat obrázek
+X-KDE-Submenu[da]=Transformér billede
+X-KDE-Submenu[de]=Bild umwandeln
+X-KDE-Submenu[el]=Μετασχηματισμός εικόνας
+X-KDE-Submenu[en_GB]=Transform Image
+X-KDE-Submenu[es]=Transformar imagen
+X-KDE-Submenu[et]=Pildi teisendamine
+X-KDE-Submenu[eu]=Eraldatu irudia
+X-KDE-Submenu[fa]=تصویر تبدیل
+X-KDE-Submenu[fi]=Muokkaa kuvaa
+X-KDE-Submenu[fr]=Transformer l'image
+X-KDE-Submenu[ga]=Trasfhoirmigh Íomhá
+X-KDE-Submenu[gl]=Transformar a imaxe
+X-KDE-Submenu[he]=הפוך תמונה
+X-KDE-Submenu[hne]=फोटू बदलव
+X-KDE-Submenu[hr]=Transformiranje slike
+X-KDE-Submenu[hsb]=Wobraz připrawić
+X-KDE-Submenu[hu]=Kép átalakítása
+X-KDE-Submenu[ia]=Transforma imagine
+X-KDE-Submenu[id]=Transformasi Citra
+X-KDE-Submenu[is]=Breyta mynd
+X-KDE-Submenu[it]=Trasforma l'immagine
+X-KDE-Submenu[ja]=画像を変換
+X-KDE-Submenu[ka]=გამოსახულების გარდაქმნა
+X-KDE-Submenu[kk]=Кескінді түрлендіру
+X-KDE-Submenu[km]=ប្លែង​រូបភាព
+X-KDE-Submenu[kn]=ಬಿಂಬವನ್ನು (ಇಮೇಜ್) ರೂಪಾಂತರಗೊಳಿಸು
+X-KDE-Submenu[ko]=그림 변형
+X-KDE-Submenu[ku]=Wêne Veguherînê
+X-KDE-Submenu[lt]=Transformuoti paveikslėlį
+X-KDE-Submenu[lv]=Pārveidot attēlu
+X-KDE-Submenu[mr]=प्रतिमा रूपांतरीत करा
+X-KDE-Submenu[nb]=Transformer bilde
+X-KDE-Submenu[nds]=Bild wanneln
+X-KDE-Submenu[nl]=Afbeelding transformeren
+X-KDE-Submenu[nn]=Omform biletet
+X-KDE-Submenu[oc]=Transformar l'imatge
+X-KDE-Submenu[pa]=ਚਿੱਤਰ ਬਦਲੋ
+X-KDE-Submenu[pl]=Przekształć obraz
+X-KDE-Submenu[pt]=Transformar a Imagem
+X-KDE-Submenu[pt_BR]=Transformar a imagem
+X-KDE-Submenu[ro]=Transformă imaginea
+X-KDE-Submenu[ru]=Преобразовать изображение
+X-KDE-Submenu[sk]=Transformovať obrázok
+X-KDE-Submenu[sl]=Preoblikuj sliko
+X-KDE-Submenu[sr]=Преобликуј слику
+X-KDE-Submenu[sr@ijekavian]=Преобликуј слику
+X-KDE-Submenu[sr@ijekavianlatin]=Preoblikuj sliku
+X-KDE-Submenu[sr@latin]=Preoblikuj sliku
+X-KDE-Submenu[sv]=Omvandla bild
+X-KDE-Submenu[tg]=Тағйири тасвир
+X-KDE-Submenu[th]=แปลงรูปภาพ
+X-KDE-Submenu[tr]=Görseli Dönüştür
+X-KDE-Submenu[ug]=سۈرەت ئايلاندۇرۇش
+X-KDE-Submenu[uk]=Перетворити зображення
+X-KDE-Submenu[vi]=Chuyển đổi ảnh
+X-KDE-Submenu[wa]=Candjî imådje
+X-KDE-Submenu[x-test]=xxTransform Imagexx
+X-KDE-Submenu[zh_CN]=图像变换
+X-KDE-Submenu[zh_TW]=轉換影像
+X-KDE-Require=Write
+
+[Desktop Action jpegRot90]
+Name=Rotate Clockwise
+Name[ru]=Повернуть по часовой стрелке
+Icon=object-rotate-right
+Exec=jpegorient +90 %F
+
+[Desktop Action jpegRot270]
+Name=Rotate Counter-Clockwise
+Name[ru]=Повернуть против часовой стрелки
+Icon=object-rotate-left
+Exec=jpegorient +270 %F
+
+#[Desktop Action jpegRot180]
+#Name=Rotate 180
+#Icon=misc
+#Exec=jpegorient +180 %F
+
+[Desktop Action jpegFlipV]
+Name=Flip Vertically
+Name[ru]=Отразить по вертикали
+Icon=2uparrow
+Exec=jpegorient v %F
+
+[Desktop Action jpegFlipH]
+Name=Flip Horizontally
+Name[ru]=Отразить по горизонтали
+Icon=2rightarrow
+Exec=jpegorient h %F

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Konqueror Feed Icon
+Name[ru]=Значок ленты новостей в Konqueror
+Icon=akregator
+Comment=Displays an icon in the status bar if the page contains a feed
+Comment[ru]=Отображает значок в строке состояния если текущая страница содержит ленту новостей
+Type=Service
+X-KDE-Library=akregatorkonqfeedicon
+X-KDE-PluginInfo-Name=konqfeedicon
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=https://akregator.kde.org/
+X-KDE-PluginInfo-Category=Statusbar
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ParentApp=hybrid-fm

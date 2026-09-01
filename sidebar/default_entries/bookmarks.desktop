@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Link
+URL=bookmarks:
+Icon=bookmarks
+Open=true
+#X-KDE-TreeModule=Bookmarks
+X-KDE-TreeModule=Virtual
+X-KDE-RelURL=bookmarks
+X-KDE-KonqSidebarModule=konqsidebar_bookmarks
+#X-KDE-SearchableTreeModule=true
+X-KDE-Weight=1
+Name=Bookmarks
+Name[ru]=Закладки
+Comment=This is the list of your bookmarks, for a faster access
+Comment[ru]=Список закладок для быстрого доступа

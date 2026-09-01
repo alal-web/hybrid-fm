@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Link
+URL=print:/
+Icon=printer
+Name=Print System Browser
+Name[ru]=Просмотр принтеров
+Open=false
+X-KDE-TreeModule=Directory
+X-KDE-KonqSidebarModule=konqsidebar_tree

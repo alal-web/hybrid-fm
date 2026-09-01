@@ -1,0 +1,33 @@
+#include "SuggestionEngine.h"
+
+#include <kservice.h>
+
+#include "searchbar_debug.h"
+
+SuggestionEngine::SuggestionEngine(const QString &engineName, QObject *parent)
+    : QObject(parent),
+      m_engineName(engineName)
+{
+    // First get the suggestion request URL for this engine
+    KService::Ptr service = KService::serviceByDesktopPath(QStringLiteral("searchproviders/%1.desktop").arg(m_engineName));
+
+    if (service) {
+        const QString suggestionURL = service->property(QStringLiteral("Suggest")).toString();
+        if (!suggestionURL.isNull() && !suggestionURL.isEmpty()) {
+            m_requestURL = suggestionURL;
+        } else {
+            qCWarning(SEARCHBAR_LOG) << "Missing property [Suggest] for suggestion engine: " + m_engineName;
+        }
+    }
+}
+
+QString SuggestionEngine::requestURL() const
+{
+    return m_requestURL;
+}
+
+QString SuggestionEngine::engineName() const
+{
+    return m_engineName;
+}
+

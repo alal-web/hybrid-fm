@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Link
+URL=
+Icon=wizard
+Name=Test
+Name[ru]=Тест
+
+X-KDE-KonqSidebarModule=konq_sidebartest

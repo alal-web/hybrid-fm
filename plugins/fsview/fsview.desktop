@@ -1,0 +1,15 @@
+# KDE Config File
+[Desktop Entry]
+Type=Application
+Exec=fsview -caption %c %u
+MimeType=inode/directory;
+Icon=fsview
+DocPath=konq-plugins/fsview/index.html
+Terminal=false
+Name=File Size Viewer
+Name[ru]=Просмотр размеров файлов
+Comment=View your filesystem as a TreeMap
+Comment[ru]=Просмотр файловой системы в виде иерархической карты
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Utility;
+X-KDE-ParentApp=hybrid-fm

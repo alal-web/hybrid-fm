@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-KDE-PluginInfo-Name=ImgGalleryPlugin
+X-KDE-PluginInfo-Version=3.4
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=Image Gallery
+Name[ru]=Галерея изображений
+Comment=An easy way to generate an HTML image gallery
+Comment[ru]=Легкий способ создать галерею изображений в HTML
+Icon=imagegallery
+X-KDE-ParentApp=hybrid-fm
+DocPath=konq-plugins/imgallery/index.html

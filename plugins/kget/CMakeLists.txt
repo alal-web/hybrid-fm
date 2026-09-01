@@ -1,0 +1,15 @@
+add_library(hybridfm_kget_browser_integration MODULE)
+
+set(kget_browser_integration_dbus_SRCS)
+qt_add_dbus_interface(kget_browser_integration_dbus_SRCS org.kde.kget.main.xml kget_interface )
+
+target_sources(hybridfm_kget_browser_integration PRIVATE
+   kget_plugin.cpp
+   ${kget_browser_integration_dbus_SRCS}
+)
+kcoreaddons_desktop_to_json(hybridfm_kget_browser_integration kget_plugin.desktop)
+
+target_link_libraries(hybridfm_kget_browser_integration KF5::CoreAddons KF5::I18n KF5::IconThemes KF5Konq)
+target_compile_definitions(hybridfm_kget_browser_integration PRIVATE TRANSLATION_DOMAIN="kgetplugin")
+
+hybridfm_install_plugin_in_namespaces(hybridfm_kget_browser_integration)

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+X-KDE-PluginInfo-Name=kshellcmdplugin
+X-KDE-PluginInfo-Version=3.4
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ParentApp=hybrid-fm
+Icon=run
+Name=Shell Command Plugin
+Name[ru]=Выполнение команд
+Comment=Shell Command Plugin for Konqueror
+Comment[ru]=Выполнение команд из Konqueror

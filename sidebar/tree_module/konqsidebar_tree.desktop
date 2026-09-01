@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Icon=folder-favorites
+Name=Tree SideBar Module
+Name[ru]=Модуль боковой панели «Иерархический просмотр»
+X-KDE-Library=konqsidebar_tree

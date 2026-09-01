@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-KDE-Library=UserAgentChanger
+X-KDE-PluginInfo-Name=UserAgentChanger
+X-KDE-PluginInfo-Version=3.3
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=UserAgent Changer
+Name[ru]=Строка UserAgent
+Comment=Allows the detected UserAgent to be modified
+Comment[ru]=Позволяет менять значение строки UserAgent
+X-KDE-ParentApp=hybrid-fm
+Icon=preferences-web-browser-identification
+DocPath=konq-plugins/uachanger/index.html

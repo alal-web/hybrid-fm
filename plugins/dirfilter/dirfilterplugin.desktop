@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+X-KDE-PluginInfo-Name=DirFilter
+X-KDE-PluginInfo-Version=3.4
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=Directory Filter
+Name[ru]=Фильтр каталогов
+Comment=Filter directory view using an attribute filter
+Comment[ru]=Отфильтровать каталоги по атрибуту
+Icon=view-filter
+X-KDE-ParentApp=hybrid-fm
+DocPath=konq-plugins/dirfilter/index.html

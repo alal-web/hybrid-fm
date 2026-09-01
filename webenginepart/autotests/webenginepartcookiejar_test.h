@@ -1,0 +1,68 @@
+#ifndef TESTWEBENGINEPARTCOOKIEJAR_H
+#define TESTWEBENGINEPARTCOOKIEJAR_H
+
+#include <QObject>
+#include <QDateTime>
+#include <QDBusError>
+
+class QWebEngineCookieStore;
+class WebEnginePartCookieJar;
+class QNetworkCookie;
+class QWebEngineProfile;
+class QDBusInterface;
+
+class TestWebEnginePartCookieJar : public QObject
+{
+    Q_OBJECT
+    
+private:
+    
+    struct CookieData {
+        QString name;
+        QString value;
+        QString domain;
+        QString path;
+        QString host;
+        QDateTime expiration;
+        bool secure;
+        
+        QNetworkCookie cookie() const;
+    };
+    
+private Q_SLOTS:
+
+    void init();
+    void initTestCase();
+    void cleanup();
+    void testCookieAddedToStoreAreAddedToKCookieServer_data();
+    void testCookieAddedToStoreAreAddedToKCookieServer();
+    void testCookieRemovedFromStoreAreRemovedFromKCookieServer_data();
+    void testCookieRemovedFromStoreAreRemovedFromKCookieServer();
+    void testPersistentCookiesAreAddedToStoreOnCreation();
+    void testSessionCookiesAreNotAddedToStoreOnCreation();
+    
+private:
+    
+    /**
+    * @brief Adds a cookie to KCookieServer
+    * 
+    * The cookie is supposed to be in `QWebEngineStore` "format", that is its domain must not be empty;
+    * a domain not starting with a dot means that the domain field wasn't given in the `Set-Cookie` header.
+    * 
+    * @param _cookie the cookie to add
+    * @param host the host where the cookie come from
+    * @return QDBusError the error returned by DBus when adding the cookie. If no error occurred, this object
+    * will be invalid
+    */
+    QDBusError addCookieToKCookieServer(const QNetworkCookie &_cookie, const QString &host);
+    void deleteCookies(const QList<CookieData> &cookies);
+    QList<CookieData> findTestCookies();
+    
+    QString m_cookieName;
+    QWebEngineCookieStore *m_store;
+    WebEnginePartCookieJar *m_jar;
+    QWebEngineProfile *m_profile;
+    QDBusInterface *m_server;
+};
+
+#endif // TESTWEBENGINEPARTCOOKIEJAR_H

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+Name=Web Archives and HTML files
+Name[ru]=Архивы веб-страниц и файлы HTML
+X-KDE-ServiceTypes=ThumbCreator
+MimeType=application/x-webarchive;text/html;application/xhtml+xml;
+X-KDE-Library=webarchivethumbnail
+CacheThumbnail=true

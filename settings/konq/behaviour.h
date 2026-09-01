@@ -1,0 +1,36 @@
+#ifndef BEHAVIOUR_H
+#define BEHAVIOUR_H
+
+#include <kcmodule.h>
+#include <kconfig.h>
+#include <ksharedconfig.h>
+#include <QStringList>
+
+class QCheckBox;
+class QLabel;
+
+class KBehaviourOptions : public KCModule
+{
+    Q_OBJECT
+public:
+    explicit KBehaviourOptions(QWidget *parent, const QVariantList &args = QVariantList());
+    ~KBehaviourOptions() override;
+    void load() override;
+    void save() override;
+    void defaults() override;
+
+protected Q_SLOTS:
+    void updateWinPixmap(bool);
+
+private:
+    KSharedConfig::Ptr g_pConfig;
+    QString groupname;
+
+    QCheckBox *cbNewWin;
+
+    QLabel *winPixmap;
+
+    QCheckBox *cbShowDeleteCommand;
+};
+
+#endif // BEHAVIOUR_H

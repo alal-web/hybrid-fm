@@ -1,0 +1,38 @@
+#ifndef SETTINGS_PLUGIN
+#define SETTINGS_PLUGIN
+
+#include <kparts_version.h>
+#include <hfm_kpart_plugin.h>
+
+class KConfig;
+
+class SettingsPlugin : public KonqParts::Plugin
+{
+    Q_OBJECT
+public:
+    SettingsPlugin(QObject *parent,
+                   const KPluginMetaData& metaData,
+                   const QVariantList &);
+    ~SettingsPlugin() override;
+
+private:
+    bool cookiesEnabled(const QString &url);
+    void updateIOSlaves();
+
+private slots:
+    void toggleJavascript(bool checked);
+    void toggleJava(bool checked);
+    void toggleCookies(bool checked);
+    void togglePlugins(bool checked);
+    void toggleImageLoading(bool checked);
+    void toggleProxy(bool checked);
+    void toggleCache(bool checked);
+    void cachePolicyChanged(int p);
+
+    void showPopup();
+
+private:
+    KConfig *mConfig;
+};
+
+#endif // SETTINGS_PLUGIN

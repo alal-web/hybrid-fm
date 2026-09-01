@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-KDE-Library=autorefresh
+X-KDE-PluginInfo-Name=autorefresh
+X-KDE-PluginInfo-Version=3.3
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=false
+Name=Auto Refresh
+Name[ru]=Автообновление
+Comment=Auto Refresh plugin
+Comment[ru]=Модуль автообновления
+Icon=view-refresh
+X-KDE-ParentApp=hybrid-fm
+

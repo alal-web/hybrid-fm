@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Link
+URL=ftp://ftp.kde.org/pub/kde
+Icon=folder-remote
+Name=KDE Official FTP
+Name[ru]=Основной FTP-сервер KDE
+Open=false
+X-KDE-TreeModule=Directory
+X-KDE-KonqSidebarModule=konqsidebar_tree

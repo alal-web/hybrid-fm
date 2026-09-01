@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Link
+Icon=view-history
+Open=false
+X-KDE-KonqSidebarModule=konqsidebar_history
+X-KDE-Weight=2
+Name=History
+Name[ru]=Журнал
+Comment=This is the history of the URLs you have recently visited. You can sort them in many ways.
+Comment[ru]=Журнал недавно посещённых адресов. Его можно настраивать по своему усмотрению.

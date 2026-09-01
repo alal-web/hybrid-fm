@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Link
+#Icon=folder-favorite
+#Icon=folder-favorites
+Icon=folder-templates
+Open=false
+X-KDE-KonqSidebarModule=konqsidebar_places
+X-KDE-Weight=5
+Name=Places
+Name[ru]=Точки входа
+Comment=This is the list of places.
+Comment[ru]=Панель «Точки входа»

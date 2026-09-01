@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Link
+URL=applications:/
+Icon=services
+Open=true
+X-KDE-TreeModule=Virtual
+X-KDE-RelURL=services
+X-KDE-KonqSidebarModule=konqsidebar_tree
+X-KDE-Weight=14
+Name=Services
+Name[ru]=Действия

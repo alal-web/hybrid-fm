@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-KDE-Library=webarchiver
+X-KDE-PluginInfo-Name=webarchiver
+X-KDE-PluginInfo-Version=3.3
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+Name=Web Archiver
+Name[ru]=Архиватор веб-страниц
+Comment=Creates archives of websites
+Comment[ru]=Создаёт архивы с содержимым веб-сайтов
+Icon=webarchiver
+X-KDE-ParentApp=hybrid-fm
+DocPath=konq-plugins/webarchiver/index.html

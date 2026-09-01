@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Link
+URL=https://dot.kde.org/
+Name=KDE News
+Name[ru]=Новости KDE
+Icon=text-html
+Open=false
+X-KDE-TreeModule=Directory
+X-KDE-KonqSidebarModule=konqsidebar_tree

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-KDE-Library=khtmlsettingsplugin
+X-KDE-PluginInfo-Name=khtmlsettingsplugin
+X-KDE-PluginInfo-Version=@khtmlsetting_VERSION@
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Tools
+X-KDE-PluginInfo-EnabledByDefault=true
+
+Name=HTML Settings
+Name[ru]=Параметры HTML
+Comment=A fast way to change the HTML settings
+Comment[ru]=Быстрый способ поменять параметры HTML
+X-KDE-ParentApp=hybrid-fm
+Icon=configure
+DocPath=konq-plugins/khtmlsettings/index.html

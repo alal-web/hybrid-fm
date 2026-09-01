@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KFileItemAction/Plugin
+X-KDE-Library=akregatorplugin
+MimeType=application/octet-stream
+Icon=akregator
+Name=Add Feed to Akregator
+Name[ru]=Добавить ленту новостей в Akregator
+icon=akregator
+Comment=Adds selected feed to Akregator
+Comment[ru]=Добавляет выбранную ленту новостей в Akregator
