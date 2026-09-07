@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Icon=bookmark
+Name=Bookmarks SideBar Module
+Name[ru]=Модуль боковой панели «Закладки»
+X-KDE-Library=konqsidebar_bookmarks

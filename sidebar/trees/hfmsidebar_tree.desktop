@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Icon=folder
+Name=Folder
+Name[ru]=Папка
+X-KDE-Library=konqsidebar_tree

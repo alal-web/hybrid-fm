@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/kxmlgui5/hybrid-fm">
+    <file>hybrid-fm.rc</file>
+  </qresource>
+</RCC>

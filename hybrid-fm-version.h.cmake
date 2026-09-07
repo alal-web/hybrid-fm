@@ -1,0 +1,7 @@
+#ifndef HYBRIDFM_VERSION_H
+#define HYBRIDFM_VERSION_H
+
+
+#define HYBRIDFM_VERSION "@HYBRIDFM_VERSION@"
+
+#endif

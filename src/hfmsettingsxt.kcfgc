@@ -1,0 +1,7 @@
+File=hybrid-fm.kcfg
+ClassName=HybridFMSettings
+Singleton=true 
+Mutators=true
+Visibility=KONQ_TESTS_EXPORT
+IncludeFiles=hfmprivate_export.h
+SourceIncludeFiles=kcompletion.h

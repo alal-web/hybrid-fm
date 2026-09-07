@@ -1,0 +1,56 @@
+#ifndef KONQPOPUPMENUTEST_H
+#define KONQPOPUPMENUTEST_H
+
+#include <hfm_popupmenu.h>
+#include <QObject>
+#include <KFileItem>
+#include <KActionCollection>
+class KNewFileMenu;
+
+class KonqPopupMenuTest : public QObject
+{
+    Q_OBJECT
+public:
+    KonqPopupMenuTest();
+
+private Q_SLOTS:
+    void initTestCase();
+    void testFile();
+    void testFileInReadOnlyDirectory();
+    void testFilePreviewSubMenu();
+    void testSubDirectory();
+    void testViewDirectory();
+    void testViewReadOnlyDirectory();
+
+    void testHtmlLink();
+    void testHtmlPage();
+
+private:
+    KonqPopupMenu::Flags m_appFlags;
+
+    KFileItem m_fileItem;
+    KFileItem m_linkItem;
+    KFileItem m_subDirItem;
+    KFileItem m_thisDirectoryItem;
+    QAction *m_cut;
+    QAction *m_copy;
+    QAction *m_paste;
+    QAction *m_pasteTo;
+    QAction *m_properties;
+    QAction *m_rename;
+    QAction *m_trash;
+    QAction *m_newWindow;
+    QAction *m_newTab;
+    QAction *m_preview1;
+    QAction *m_preview2;
+    QActionGroup *m_tabHandlingActions;
+    QActionGroup *m_previewActions;
+    QActionGroup *m_htmlEditActions;
+    QActionGroup *m_fileEditActions;
+    QActionGroup *m_linkActions;
+    QActionGroup *m_partActions;
+    KNewFileMenu *m_newMenu;
+    KActionCollection m_actionCollection;
+};
+
+#endif

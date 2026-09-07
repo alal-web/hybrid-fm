@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Service
+Icon=view-sidetree
+MimeType=inode/directory;
+X-KDE-ServiceTypes=KParts/ReadOnlyPart,Browser/View
+X-KDE-Library=kf5/parts/konq_sidebar
+X-KDE-BrowserView-AllowAsDefault=false
+X-KDE-BrowserView-HideFromMenus=true
+X-KDE-BrowserView-PassiveMode=true
+X-KDE-BrowserView-Toggable=true
+X-KDE-BrowserView-ToggableView-Orientation=vertical
+X-KDE-BrowserView-HierarchicalView=true
+X-KDE-BrowserView-FollowActive=true
+X-KDE-BrowserView-LinkedView=false
+X-KDE-BrowserView-Built-Into=hybrid-fm
+Name=Sidebar
+Name[ru]=Боковая панель
+
+X-KDE-PluginInfo-Name=konq_sidebartng
+X-KDE-PluginInfo-Version=@konq_sidebar_VERSION@

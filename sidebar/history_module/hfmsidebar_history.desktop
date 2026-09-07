@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Icon=view-history
+Name=History SideBar Module
+Name[ru]=Модуль боковой панели журнала
+X-KDE-Library=konqsidebar_history

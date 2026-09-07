@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Icon=applications-internet
+Name=Web SideBar Module
+Name[ru]=Модуль боковой панели Web
+X-KDE-Library=konqsidebar_web

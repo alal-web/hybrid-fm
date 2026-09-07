@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Service
+Name=Places SideBar Module
+Name[ru]=Модуль боковой панели «Точек входа»
+X-KDE-Library=konqsidebar_places
